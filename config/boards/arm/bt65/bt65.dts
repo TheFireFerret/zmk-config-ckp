@@ -29,7 +29,7 @@
 
 	sensors {
 		compatible = "zmk,keymap-sensors";
-		sensors = <&encoder_1>;
+		sensors = <&encoder_2>;
 	};
 
 	default_transform: keymap_transform_0 {
@@ -97,7 +97,7 @@
 		label = "ENCODER_TWO";
 		a-gpios = <&gpio0 26 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 		b-gpios = <&gpio0 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-		resolution = <4>;
+		resolution = <2>;
 		status = "okay";
 	};
 	encoder_3: encoder_3 {
